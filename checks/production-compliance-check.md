@@ -10,6 +10,8 @@ This checks whether a project is in shape for **Babson hosting**. It does not ju
 
 ## 1. Toolkit
 
+Verifies the build against the approved stack — see [Toolkit](../guides/toolkit.md).
+
 - [ ] Built in **Python** or **JavaScript/TypeScript** (not a mix without reason).
 - [ ] Web/backend uses **FastAPI** (Python) or **Next.js + Vercel AI SDK** (JS/TS).
 - [ ] Models accessed via the **Claude (Anthropic) SDK** or **OpenAI SDK**.
