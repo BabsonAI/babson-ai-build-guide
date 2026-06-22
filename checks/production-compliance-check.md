@@ -16,6 +16,7 @@ Verifies the build against the approved stack — see [Toolkit](../guides/toolki
 - [ ] Web/backend uses **FastAPI** (Python) or **Next.js + Vercel AI SDK** (JS/TS).
 - [ ] Models accessed via the **Claude (Anthropic) SDK** or **OpenAI SDK**.
 - [ ] Data handled with **pandas** (Python) or standard equivalents; HTTP via `requests`/`fetch`.
+- [ ] Any agent orchestration uses plain Python or **LangGraph / LangChain** (Python), not an unsupported framework.
 - [ ] No tool, framework, or platform outside the approved toolkit — or, if there is one, it's noted with a reason and flagged for AI-team review.
 
 ## 2. Storage

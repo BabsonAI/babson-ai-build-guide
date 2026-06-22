@@ -6,6 +6,8 @@ A deliberately short, approved stack. These tools cover most projects and host c
 
 **Building it** — FastAPI (Python) for a backend/API; Next.js + Vercel AI SDK (JS/TS) for web apps with AI built in.
 
+**Agents** — Plain Python is fine for a simple linear flow. When you need more — circular logic, branching, sub-agents, or structured function/tool calling — **LangGraph** is the approved Python framework, with the broader **LangChain** ecosystem alongside it. Portable, and packages for hosting like any other Python app. When to reach for it: [AI Patterns → Agents](./ai-patterns.md).
+
 **Models** — Claude (Anthropic SDK) or OpenAI SDK. Use your own keys while you build; when we host it, it runs on Babson-provisioned keys — a small swap at hosting time, not a rebuild. See [Getting Model Access](./getting-model-access.md).
 
 **Data & HTTP** — pandas (Python) for tables; `requests` / `fetch` for calling other services. More on storage and persistence in [Data Guidance](./data-guidance.md).

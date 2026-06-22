@@ -78,7 +78,7 @@ Deeper version: [`/guides/solution-architecture.md`](./guides/solution-architect
 <a name="6-the-toolkit"></a>
 ## 6. The toolkit
 
-A short, approved stack — Python or JS/TS, FastAPI or Next.js + Vercel AI SDK, Claude or OpenAI SDK, pandas, SQLite, Git. It's deliberately small so builds host cleanly. Want something not listed? Check with us first.
+A short, approved stack — Python or JS/TS, FastAPI or Next.js + Vercel AI SDK, Claude or OpenAI SDK, LangGraph for agents, pandas, SQLite, Git. It's deliberately small so builds host cleanly. Want something not listed? Check with us first.
 
 The full stack and the reasoning: [`/guides/toolkit.md`](./guides/toolkit.md).
 

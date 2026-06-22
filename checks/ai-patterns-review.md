@@ -31,6 +31,9 @@ The verification checklist for whether the **AI parts** of your project are buil
 - [ ] 👁️ Embedding / index / scaling left to the AI team (simplest embedded option for now).
 
 ## D. Agents & tool use — skip if no tools/loops
+
+*Plain code or a framework like LangGraph / LangChain — the items below apply either way.*
+
 - [ ] ✅ Agent loops have a stopping condition / step cap.
 - [ ] ✅ Each tool handles its own errors without crashing the loop.
 - [ ] ✅ Destructive tools require confirmation or are off by default.

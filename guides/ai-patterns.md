@@ -58,6 +58,12 @@ If your project uses tools or multi-step loops:
 - **Let it abstain** — stop and say it can't, instead of flailing or fabricating when it's stuck or lacks a tool.
 - **Keep a human in the loop where it matters.** For any consequential action — sending something for a person, changing a record, anything someone would want to review — the app proposes and a person approves. (This is the README's fifth shaping question: *should this be automated at all?*)
 
+**Agent shapes — and when to reach for a framework.** Start simple: a linear flow — call the model, call a tool, call the model again — is often just plain Python, and you shouldn't reach for a framework you don't need. The shape gets harder when you want *circular* logic (the agent loops back to refine or retry until it's done), branching and routing, **sub-agents** (a coordinator handing work to specialized agents), or structured **function / tool calling** across many steps. Hand-rolling that turns into a tangle of `while` loops and flags fast.
+
+That's where **LangGraph** earns its place. It models an agent as a graph — nodes are steps, edges are the transitions between them, and shared state flows along the way. Cyclic edges give you the circular logic cleanly, branching edges give you routing, and sub-graphs give you sub-agents. It's Python, portable, and packages for hosting like any other Python app, which is why it's in the [toolkit](./toolkit.md). **LangChain** is the broader ecosystem around it — model wrappers, a large tool and integration library, structured-output helpers — useful in pieces; you don't have to adopt all of it.
+
+A framework makes these patterns *easier to express*; it doesn't make them *safe for you*. Everything above still holds: the graph needs a recursion or step limit, each node handles its own errors, destructive tools still need a human's approval, and the agent still needs a way to abstain.
+
 *The AI team handles:* the blast radius of an agent acting on real systems. During build, keep tools pointed at fake data or sandboxes; real-system access is an AI-team sign-off (see [Data Guidance](./data-guidance.md)).
 
 ---
