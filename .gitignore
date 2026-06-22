@@ -1,0 +1,39 @@
+# Local tooling / editors
+.claude/
+.vscode/
+.idea/
+
+# Secrets & environment
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node / JS
+node_modules/
+.next/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+
+# Local data — keep real data out of the repo
+*.sqlite
+*.db
+data/local/
+*.local.*
+
+# OS
+.DS_Store
+Thumbs.db

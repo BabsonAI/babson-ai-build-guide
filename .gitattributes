@@ -1,0 +1,9 @@
+# Normalize line endings to LF in the repo for consistent cross-platform diffs
+* text=auto eol=lf
+
+# Binary assets (when added under /diagrams)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
