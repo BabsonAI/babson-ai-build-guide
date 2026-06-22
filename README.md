@@ -121,7 +121,7 @@ Connecting to real or live systems is possible but deliberate, because live data
 
 On your own machine, connect whatever you want — this only applies to what we host.
 
-Generating fake data: [`/guides/using-fake-data.md`](./guides/using-fake-data.md).
+Working with data — synthetic vs. real, storage, and persistence: [`/guides/data-guidance.md`](./guides/data-guidance.md).
 
 ---
 
@@ -161,7 +161,7 @@ babson-ai-build-guide/
 
 **[`/diagrams`](./diagrams)** — Architecture and flow diagrams in mermaid (text-based) and excalidraw (exported images). *Coming soon.*
 
-**[`/guides`](./guides)** — Solution architecture, using fake data, getting model access, responsible AI, lifecycle & ownership, and submitting for production.
+**[`/guides`](./guides)** — Solution architecture, data guidance, getting model access, responsible AI, lifecycle & ownership, and submitting for production.
 
 ---
 

@@ -10,7 +10,7 @@ Most of this is **awareness-tier**: you acknowledge it and surface it; Babson an
 
 **FERPA** is the federal law protecting student education records — grades, enrollment, schedules, advising and disciplinary notes, financial-aid info, anything tied to an identifiable student. It is not yours to connect to a project on your own judgment.
 
-Synthetic-first is the rule, and the trap is realism: "my demo would be so much better with real data" is the exact thought that gets people in trouble. Build on fake data that *looks* real (see [using-fake-data.md](./using-fake-data.md)). Real student data isn't forbidden — but it's a deliberate, sponsored decision (a durable owner plus AI-team sign-off), never a shortcut you take on your own to make a demo pop.
+Synthetic-first is the rule, and the trap is realism: "my demo would be so much better with real data" is the exact thought that gets people in trouble. Build on fake data that *looks* real (see [data-guidance.md](./data-guidance.md)). Real student data isn't forbidden — but it's a deliberate, sponsored decision (a durable owner plus AI-team sign-off), never a shortcut you take on your own to make a demo pop.
 
 Hard lines:
 
