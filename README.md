@@ -54,7 +54,7 @@ The demo is the easy part. Reliability, security, hosting, and cost are the rest
 Check whether you need to build at all. Two no-code tools cover a lot:
 
 - **Microsoft Copilot Studio** — drag-and-drop agents, Babson login, no code.
-- **BeaverChat** — chat with models, build lightweight assistants.
+- **BabsonChat** — chat with models, build lightweight assistants.
 
 If one of these does the job, use it and skip the rest. This guide is for when you've outgrown them.
 
